@@ -1,5 +1,5 @@
 require "pry"
-require "benchmark"
+
 
 def countdown(number)
   
@@ -13,9 +13,8 @@ end
 
 countdown(10)
 
-def countdown_with_sleep(int)
-  runtime = Benchmark.measure{countdown(10)}
-  runtime.real.to_i >= 5
+def countdown_with_sleep(x)
+  
 end 
 
 countdown_with_sleep(3)
