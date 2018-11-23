@@ -14,7 +14,14 @@ end
 countdown(10)
 
 def countdown_with_sleep(x)
-  
+   while x > 0
+    puts "#{number} SECOND(S)!"
+  number -= 1  
+  sleep 3
+  end
+ return "HAPPY NEW YEAR!"
+  #binding.pry
+end
 end 
 
 countdown_with_sleep(3)
