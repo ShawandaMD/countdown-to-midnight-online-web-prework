@@ -16,7 +16,7 @@ end
 def countdown_with_sleep(x)
    while x > 0
     puts "#{x} SECOND(S)!"
-  number -= 1  
+  x -= 1  
   sleep 3
   end
   binding.pry
